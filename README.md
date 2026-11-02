@@ -41,7 +41,7 @@ The image is built from the DockerFile using the podman command below. I am usin
 From this directory:
 
     oc apply -f openshift/namespace.yaml
-    oc project mtc-demo
+    oc project mta-demo
     oc apply -f openshift/secret.yaml
     oc apply -f openshift/quay-robot-secret.yaml
     oc apply -f openshift/postgres-pvc.yaml
@@ -59,7 +59,7 @@ From this directory:
 3. Add tasks.
 4. Upload documents.
 5. Show the two PVCs.
-6. Use mta-ops to migrate `mtc-demo` to Cluster B.
+6. Use mta-ops to migrate `mta-demo` to Cluster B.
 7. Validate pods, services, route and PVCs.
 8. Open the application on Cluster B.
 9. Show that tasks and uploaded documents survived.
