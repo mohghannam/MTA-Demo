@@ -1,4 +1,4 @@
-# OpenShift MTC Stateful Application Demo
+# OpenShift MTA Stateful Application Demo
 
 A deliberately small stateful application designed to demonstrate the application migration capabability mta-ops in the Migration Toolkit for Applications.
 
@@ -25,7 +25,7 @@ The namespace contains:
 
 ## Why two PVCs?
 
-This makes the MTC demonstration visually clear:
+This makes the MTA demonstration visually clear:
 
 - `postgres-data` contains relational application state.
 - `app-uploads` contains user-generated files.
